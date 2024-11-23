@@ -1,0 +1,118 @@
+.navbar-custom {
+    background-color: #000000;
+}
+
+/* Split Container */
+.split-container {
+    height: 100vh; /* Full height of the viewport */
+}
+.experience_section {
+    background-color: black;
+    color: white;  /* Ensures text is visible against the dark background */
+}
+
+.experience_section .heading_container h2 {
+    color: white;  /* White color for the heading */
+}
+
+.experience_section p {
+    color: white;  /* White color for the paragraph */
+}
+
+
+/* Left Side: Text Section */
+.text-section {
+    text-align: center; /* Center text horizontally */
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text */
+    background-color: #d4c298;
+}
+
+/* Right Side: Image Section */
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the section */
+}
+
+/* General styles */
+.category_section {
+    padding: 50px 0;
+}
+
+.category_section .card {
+    border: 2px solid #d4c298; /* Adding border with the specified color */
+    border-radius: 8px; /* Optional: rounded corners for a softer look */
+    overflow: hidden; /* Ensures content doesn't overflow the border */
+}
+
+.category_section .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #d4c298; /* Optional: to give a border between image and text */
+}
+
+/* .col-lg-12 col-md-12 mx-auto{
+    padding: 10px;
+} */
+.box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 300px; /* Set card height */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.category_section .card-content {
+    background-color: #d4c298; /* Set background color of card content */
+    padding: 15px; /* Optional: adds some padding inside the card content */
+    border-radius: 8px; /* Optional: adds rounded corners for the card content */
+}
+
+.category_section .card {
+    border: 2px solid #d4c298; /* Optional: border around the card */
+}
+
+.detail-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6); /* Black transparent background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 1; /* Default state: visible */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.box:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.4); /* Slightly transparent background */
+    color: white; /* Text color remains white on hover */
+}
+
+.box:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.category-info p {
+    margin: 0.5rem 0;
+}
+
+
